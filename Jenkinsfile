@@ -8,7 +8,7 @@ maven 'maven3.8.2'
 }
 
 triggers{
-pollSCM('* * * * *')
+pollSCM('H/2 * * * * *')
 }
 
 options{
